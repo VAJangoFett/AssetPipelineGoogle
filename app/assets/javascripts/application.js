@@ -14,3 +14,10 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+setTimeout(function(){ window.confirm("Genre ! Elle déchire cette PopUp de ouf !"); }, 2000)
+        alert(temp)
+        if (window.confirm("Cool.")) {
+            window.open("Bim");
+        }
+        
