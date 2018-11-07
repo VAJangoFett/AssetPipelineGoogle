@@ -3,7 +3,6 @@
 <head>
 	<title>Google</title>
 	<meta charset="utf-8">
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
 	<link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
@@ -14,7 +13,7 @@
 			<div>
 				<div><a href="d">Gmail</a></div>
 				<div><a href="d">Images</a></div>
-				<div id="cubes">.</div>
+				<div id="cubes"><%= image_tag 'square.png', width: 20 %></div> 
 				<input type="submit" value="Sign in" class="blue_buttons"></input>
 			</div>
 		</div>
@@ -23,12 +22,12 @@
 	<section id="central">
 
 		<div id="logo">
-			<img src="images/googlelogo_color_272x92dp.png" alt="Google">
+			<%= image_tag 'googlelogo_color_272x92dp.png' %>
 		</div>
 
 		<div id="search_bar">
 			<input type="text" name="search"><a href="https://media.giphy.com/media/15BuyagtKucHm/giphy.gif">
-			<img src="images/mic.png"></a>
+			<%= image_tag 'mic.png' %>
 		</div>
 
 		<div id="search_buttons">
@@ -44,7 +43,7 @@
 
 		<div id="privacy">
 			<div id="privacy_logo">
-				<img src="images/privacy_shield.png" alt="privacy_shield"><span>A privacy reminder from Google</span>
+				<%= image_tag 'privacy_shield.png' %><span>A privacy reminder from Google</span>
 			</div>
 				<!-- <div>
 					
